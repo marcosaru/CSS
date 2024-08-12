@@ -18,3 +18,9 @@ ion-header ion-toolbar.in-toolbar h1,
 ion-header ion-toolbar.in-toolbar h2 {
     font-weight: normal;
 }
+html {
+    --core-login-background: white;
+    --core-login-text-color: #00568d;
+    --core-login-input-background: #00568d;
+    --core-login-input-color: white;
+}
