@@ -1,0 +1,20 @@
+/* Background */
+ion-header ion-toolbar {
+    --core-header-toolbar-background: #00568d;
+}
+
+/* Bottom border */
+ion-header ion-toolbar {
+    --core-header-toolbar-border-width: 2px; /* Use 0 to disable it */
+    --core-header-toolbar-border-color: white;
+}
+
+/* Text and buttons */
+ion-header ion-toolbar {
+    --core-header-toolbar-color: white;
+}
+
+ion-header ion-toolbar.in-toolbar h1,
+ion-header ion-toolbar.in-toolbar h2 {
+    font-weight: normal;
+}
