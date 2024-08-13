@@ -24,3 +24,8 @@ html {
     --core-login-input-background: #00568d;
     --core-login-input-color: white;
 }
+input::placeholder {
+    color: #888; /* Cor do texto do placeholder */
+    font-style: italic; /* Estilo da fonte */
+    font-size: 14px; /* Tamanho da fonte */
+}
