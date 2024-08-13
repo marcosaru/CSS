@@ -23,6 +23,7 @@ html {
     --core-login-text-color: #00568d;
     --core-login-input-background: #00568d;
     --core-login-input-color: white;
+    --primary: #00568d;
 }
 input::placeholder {
     color: #888; /* Cor do texto do placeholder */
