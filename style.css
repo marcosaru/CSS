@@ -50,3 +50,36 @@ ion-tab-bar[_ngcontent-ng-c398777191] {
 *{
 --primary: #00568d !important;    
 }
+/* Exemplo de estilização baseada em classes específicas */
+.plt-android ion-input .native-input {
+    background-color: #00658d;
+    color: white;
+}
+
+.plt-mobile ion-input .native-input {
+    background-color: #00658d;
+    color: white;
+}
+
+.theme-site-boost_magnific ion-input .native-input {
+    background-color: #00658d;
+    color: white;
+}
+
+/* Estilo do Placeholder */
+input::placeholder,
+ion-input .native-input::placeholder {
+    color: #fff;
+    opacity: 1;
+}
+
+/* Estilo do Tab Bar */
+ion-tab-bar {
+    --background: #00658d;
+    --color: #ffffff;
+}
+
+/* Estilos para dispositivos móveis */
+@media (max-width: 768px) {
+    /* Adicione estilos específicos para dispositivos móveis se necessário */
+}
