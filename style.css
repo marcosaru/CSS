@@ -25,8 +25,18 @@ html {
     --core-login-input-color: white;
     --primary: #00568d;
 }
-input::placeholder {
-    color: #888; /* Cor do texto do placeholder */
-    font-style: italic; /* Estilo da fonte */
-    font-size: 14px; /* Tamanho da fonte */
+/* Estiliza todos os inputs */
+input,
+ion-input .native-input {
+    background-color: #00658d; /* Fundo azul escuro */
+    color: white; /* Cor do texto do input para contraste */
+    border: none; /* Remove bordas, se necessário */
+    padding: 0.5em; /* Ajusta o padding, */
+}
+
+/* Estiliza o placeholder de todos os inputs */
+input::placeholder,
+ion-input .native-input::placeholder {
+    color: #fff; /* Cor branca do texto do placeholder */
+    opacity: 1; /* Garante que a cor do placeholder seja visível */
 }
