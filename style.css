@@ -47,3 +47,6 @@ ion-tab-bar[_ngcontent-ng-c398777191] {
     --background-selected: var(--core-bottom-tabs-background-selected);
     height: var(--menutabbar-size);
 }
+*{
+--primary: #00568d !important;    
+}
