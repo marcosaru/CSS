@@ -21,8 +21,8 @@ ion-header ion-toolbar.in-toolbar h2 {
 html {
     --core-login-background: white;
     --core-login-text-color: #00568d;
-    --core-login-input-background: #00568d;
-    --core-login-input-color: white;
+    --core-login-input-background: ##c6c8c9;
+    --core-login-input-color: #00568d;
     --primary: #00568d;
 }
 /* Estiliza todos os inputs */
@@ -39,4 +39,11 @@ input::placeholder,
 ion-input .native-input::placeholder {
     color: #fff; /* Cor branca do texto do placeholder */
     opacity: 1; /* Garante que a cor do placeholder seja visível */
+}
+ion-tab-bar[_ngcontent-ng-c398777191] {
+    --background: #00658d;
+    --color: #ffffff;
+    --color-selected: var(--core-bottom-tabs-color-selected);
+    --background-selected: var(--core-bottom-tabs-background-selected);
+    height: var(--menutabbar-size);
 }
